@@ -6,7 +6,7 @@
 
 function min_max() {
   var min, max, first_arg;
-  first_arg = arguments[0]
+  first_arg = arguments[0];
   //Check to see if its an array passed in
   if (typeof(first_arg) == "object") {
     min = Math.min(...first_arg);
